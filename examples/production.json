@@ -1,0 +1,12 @@
+{
+  "admission":{"tenant_quota":"verified","regional_placement":"verified","burst_budget":"verified","priority":"verified","idempotency":"verified"},
+  "fleet":{"demand_forecast":"verified","warm_capacity":"verified","launch_latency":"verified","launch_success":"verified","bootstrap_success":"verified","drain":"verified","termination":"verified","orphan_detection":"verified","fallback_capacity":"verified"},
+  "session":{"state_machine":"verified","join_success":"verified","time_to_ready":"verified","media_health":"verified","reconnect":"verified","upload_retry":"verified","completion":"verified","customer_trace":"verified"},
+  "media":{"cpu_budget":"verified","memory_budget":"verified","bandwidth":"verified","scratch_space":"verified","backpressure":"verified","bounded_buffering":"verified","crash_isolation":"verified","graceful_shutdown":"verified"},
+  "region":{"latency":"verified","capacity":"verified","data_residency":"verified","egress_cost":"verified","failure_domain":"verified","provider_health":"verified"},
+  "api":{"auth":"verified","rate_limit":"verified","idempotency":"verified","timeout_budget":"verified","retry_semantics":"verified","webhook_guarantee":"verified","versioning":"verified","tenant_isolation":"verified","request_tracing":"verified"},
+  "release":{"immutable_image":"verified","integration_test":"verified","synthetic_meeting":"verified","canary_region":"verified","small_cohort":"verified","health_gate":"verified","rollback":"verified"},
+  "observability":{"fleet_metrics":"verified","session_metrics":"verified","api_metrics":"verified","cost_metrics":"verified","deployment_markers":"verified","alert_owner":"verified","runbook":"verified","customer_correlation":"verified"},
+  "reliability":{"blast_radius":"verified","scheduler_ha":"verified","queue_ha":"verified","storage_ha":"verified","provider_degradation":"verified","region_failover":"verified","incident_owner":"verified","postmortem":"verified"},
+  "cost":{"cost_per_session":"verified","cost_per_hour":"verified","idle_cost":"verified","failed_launch_cost":"verified","egress_cost":"verified","regional_variance":"verified","capacity_efficiency":"verified"}
+}
